@@ -1,6 +1,6 @@
 {
   "name": "merrie-connect",
-  "version": "0.1.0-indev",
+  "version": "1.0.1",
   "homepage": "https://github.com/MerrieServer/MerrieConnect",
   "license": "MIT",
   "scripts": {
