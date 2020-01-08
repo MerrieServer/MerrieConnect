@@ -1,0 +1,56 @@
+{
+  "name": "merrie-connect",
+  "version": "0.1.0-indev",
+  "homepage": "https://github.com/MerrieServer/MerrieConnect",
+  "license": "MIT",
+  "scripts": {
+    "build": "gulp build",
+    "debug-popup": "gulp debug-popup"
+  },
+  "build": {
+    "appId": "pl.merrie.merrie-connect",
+    "productName": "Merrie Connect",
+    "files": [
+      "extension/**/*",
+      "package.json"
+    ],
+    "publish": null
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.25",
+    "@fortawesome/free-solid-svg-icons": "^5.11.2",
+    "@fortawesome/react-fontawesome": "^0.1.5",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "react-redux": "^7.1.1",
+    "redux": "^4.0.4",
+    "redux-logger": "^3.0.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.4",
+    "@babel/plugin-proposal-class-properties": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-plugin-react-transform": "^3.0.0",
+    "babelify": "^10.0.0",
+    "browserify": "^16.5.0",
+    "browserify-hmr": "^0.4.0",
+    "envify": "^4.1.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-connect": "^5.7.0",
+    "gulp-envify": "^1.0.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-if": "^3.0.0",
+    "gulp-livereload": "^4.0.2",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.2",
+    "react-hot-loader": "^4.12.14",
+    "react-proxy": "^1.1.8",
+    "uglifyify": "^5.0.2",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0",
+    "watchify": "^3.11.1"
+  }
+}
